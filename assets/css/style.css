@@ -51,6 +51,7 @@ body {
     url("/assets/img/webdk-bg.jpg") no-repeat top center/cover fixed;
   overscroll-behavior: none;
   background-attachment: fixed;
+background-size: 100%;
 }
 
 body::-webkit-scrollbar {
