@@ -272,6 +272,7 @@ nav ul li.active a .text {
 }
 
 .indicator {
+position: absolute
 background: var(--primarycolor);
   width: 70px;
   height: 70px;
