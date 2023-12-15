@@ -61,6 +61,8 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.header{
+height:100vh}
 .header-top {
   position: fixed;
   padding: 5rem 3%;
@@ -92,8 +94,7 @@ body::-webkit-scrollbar {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  height: 70vh;
-}
+  }
 
 .profile h3 {
   font-size: 2rem;
