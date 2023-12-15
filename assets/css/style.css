@@ -563,15 +563,8 @@ nav ul li:nth-child(5).active ~ .indicator {
     font-size: 50%;
   }
 
-  body {
-    color: var(--light_bg);
-    font-family: "Urbanist";
-    letter-spacing: 0.1rem;
-    transition: 0.3s;
-    /* background: linear-gradient(to right, var(--dark_bg), rgba(0, 0, 0, 0.882)),
-      url("/assets/img/webdk-bg.jpg") no-repeat top center/cover; */
-
-    background-attachment: fixed;
+  body {
+   
     background-position: 70%;
   }
 
