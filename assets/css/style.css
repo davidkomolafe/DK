@@ -539,6 +539,9 @@ nav ul li:nth-child(5).active ~ .indicator {
   display: none;
 }
 
+footer #footer{
+height:auto}
+
 @media screen and (max-width: 1600px) {
   html {
     font-size: 56.25%;
