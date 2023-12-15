@@ -35,6 +35,12 @@ html {
   scroll-behavior: smooth;
   line-height: 1.2;
 }
+html,
+body {
+  height: 100vh;
+  -webkit-overflow-scrolling: auto;
+}
+
 
 body {
   background-color: var(--dark_bg);
