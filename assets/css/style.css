@@ -49,9 +49,7 @@ body {
   transition: 0.3s;
   background: linear-gradient(to right, var(--dark_bg), var(--dark_bg2)),
     url("/assets/img/webdk-bg.jpg") no-repeat top center/cover fixed;
-  overscroll-behavior: none;
-  background-attachment: fixed;
-background-size: 100%;
+  
 }
 
 body::-webkit-scrollbar {
