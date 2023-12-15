@@ -278,7 +278,7 @@ nav ul li.active a .text {
   background: var(--primarycolor);
   top: -50%;
   border-radius: 50%;
-  border: 10px solid var(--dark_bg);
+  border: 1px solid var(--dark_bg);
   transition: 0.1s;
 }
 
