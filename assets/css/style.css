@@ -36,13 +36,19 @@ html {
   line-height: 1.2;
 }
 
+html,
+body {
+  height: 100vh;
+  -webkit-overflow-scrolling: auto;
+}
+
 body {
   background-color: var(--dark_bg);
   font-family: "Urbanist";
   letter-spacing: 0.1rem;
   transition: 0.3s;
   background: linear-gradient(to right, var(--dark_bg), var(--dark_bg2)),
-    url("/assets/img/webdk-bg.jpg") no-repeat top center/cover;
+    url("/assets/img/webdk-bg.jpg") no-repeat top center/cover fixed;
   overscroll-behavior: none;
   background-attachment: fixed;
 }
@@ -55,15 +61,13 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-.header {
- min-height: 100vh;
-  position: relative;
-}
-
 .header-top {
+  position: fixed;
   padding: 5rem 3%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 
 .logo {
@@ -88,7 +92,7 @@ body::-webkit-scrollbar {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  margin-top: 3rem;
+  height: 100vh;
 }
 
 .profile h3 {
@@ -574,7 +578,6 @@ nav ul li:nth-child(5).active ~ .indicator {
   }
 
   .profile {
-    margin-top: 5rem;
     line-height: 1.2;
   }
 
