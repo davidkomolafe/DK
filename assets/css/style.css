@@ -272,13 +272,19 @@ nav ul li.active a .text {
 }
 
 .indicator {
+background: var(--primarycolor),
+              border-box /* background-origin */
+              padding-box /* background-clip */, 
+            filter( var(--primarycolor);$, blur(9px)) 
+              /* background-origin & background-clip */
+              border-box
   position: absolute;
   width: 70px;
   height: 70px;
-  background: var(--primarycolor);
+  
   top: -50%;
   border-radius: 50%;
-  border: 1px solid var(--dark_bg);
+  border: 10px solid var(--dark_bg);
   transition: 0.1s;
 }
 
