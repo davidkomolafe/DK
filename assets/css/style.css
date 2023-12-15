@@ -275,10 +275,9 @@ nav ul li.active a .text {
 background: var(--primarycolor),
               border-box /* background-origin */
               padding-box /* background-clip */, 
-            filter( var(--primarycolor), blur(9px)) 
+            filter(var(--primarycolor), blur(9px)) 
               /* background-origin & background-clip */
               border-box
-  position: absolute;
   width: 70px;
   height: 70px;
   
