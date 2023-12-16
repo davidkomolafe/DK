@@ -61,6 +61,9 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+header{
+height: 100vh}
+
 .header-top {
   position: fixed;
   padding: 5rem 3%;
